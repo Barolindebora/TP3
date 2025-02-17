@@ -29,7 +29,34 @@ const superheroes = superheroesArray.map(hero=>new Superheroe (hero.id, hero.nom
      hero.edad, hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado, hero.enemigo)
 ); 
  
-// ordenar por nombre de superheroe 
+// ordenar por nombre de superheroe, puede ser con cualquier atributo
 superheroes.sort ((a, b)=>a.nombreSuperheroe.localeCompare(b.nombreSuperheroe))
 return superheroes; 
+}
+
+
+//Nueva funcion para agregar superheroes 
+export function agregarSuperheroes (rutaOriginal, rutaNuevos){
+    const datosOriginales=fs.readFileSync(rutaOriginal, 'utf-8');
+    const datosNuevos=fs.readdirSync(rutaNuevos, 'utf-8'); 
+   
+    const superheroesOriginales= JSON.parse(datosOriginales); 
+    const superheroesNuevos= JSON.parse(datosNuevos); 
+
+
+// convertir los nuevos superheroes a instancias de Superheroe
+const instanciasNuevos=nuevosSuperheroes.map(
+    hero=>new Superheroe (hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad,
+        hero.edad, hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado, hero.enemigo)
+);
+ 
+//Combinar listas 
+
+const listaActualizada=[...superheroesOriginales, ...instanciasNuevos]; 
+
+// guardar lista actualizada 
+fs.writeFileSync (rutaOriginal, JSON.stringify(listaActualizada, null, 2),'utf-8'); 
+console.log ('Lista actualizada con exito'); 
+
+
 }
