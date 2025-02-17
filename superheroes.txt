@@ -7,10 +7,18 @@
     "edad": 25,
     "planetaOrigen": "Tierra",
     "debilidad": "Radioactiva",
-    "poder": ["Trepar paredes", "Sentido arácnido", "Super fuerza"],
+    "poder": [
+      "Trepar paredes",
+      "Sentido arácnido",
+      "Super fuerza"
+    ],
     "habilidadEspecial": "Redes de telaraña",
-    "aliado": ["Ironman"],
-    "enemigo": ["Duende Verde"]
+    "aliado": [
+      "Ironman"
+    ],
+    "enemigo": [
+      "Duende Verde"
+    ]
   },
   {
     "id": 2,
@@ -20,10 +28,18 @@
     "edad": 45,
     "planetaOrigen": "Tierra",
     "debilidad": "Dependiente de la tecnología",
-    "poder": ["Armadura blindada", "Volar", "Láseres"],
+    "poder": [
+      "Armadura blindada",
+      "Volar",
+      "Láseres"
+    ],
     "habilidadEspecial": "Ingeniería avanzada",
-    "aliado": ["Spiderman"],
-    "enemigo": ["Mandarín"]
+    "aliado": [
+      "Spiderman"
+    ],
+    "enemigo": [
+      "Mandarín"
+    ]
   },
   {
     "id": 3,
@@ -33,9 +49,37 @@
     "edad": 1000,
     "planetaOrigen": "Asgard",
     "debilidad": "Destruir su martillo",
-    "poder": ["Controlar el trueno", "Fuerza sobrehumana", "Inmortal"],
+    "poder": [
+      "Controlar el trueno",
+      "Fuerza sobrehumana",
+      "Inmortal"
+    ],
     "habilidadEspecial": "Invocación de tormentas",
-    "aliado": ["Loki"],
-    "enemigo": ["Hela"]
+    "aliado": [
+      "Loki"
+    ],
+    "enemigo": [
+      "Hela"
+    ]
+  },
+  {
+    "id": 4,
+    "nombreSuperheroe": "Fawna",
+    "nombreSociedad": " Protectora de la Vida Silvestre (PVS) ",
+    "edad": 40,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Destrucción del ecosistema",
+    "poder": [
+      "Comunicacion con animales",
+      "Empatía con la naturaleza",
+      "Control sobre la flora"
+    ],
+    "habilidadEspecial": "Fuerza y agilidad sobrehumanas",
+    "aliado": "Red de la vida silvestre",
+    "enemigo": [
+      "El cazador",
+      "El desecador",
+      "Corporación Omicron"
+    ]
   }
 ]

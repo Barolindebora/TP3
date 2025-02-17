@@ -6,8 +6,6 @@ const archivosNuevos='./agregarSuperheroes.txt';
 
 agregarSuperheroes(archivoOriginal, archivosNuevos); 
 
-
-
 //leer y mostrar la lista de superheroes ordenada
 const superheroes=leerSuperheroes(archivoOriginal)
 console.log('Superheroes ordenados: '); 

@@ -9,7 +9,7 @@
     "debilidad": "Destrucción del ecosistema",
     "poder": ["Comunicacion con animales", "Empatía con la naturaleza", "Control sobre la flora"],
     "habilidadEspecial": "Fuerza y agilidad sobrehumanas",
-    "aliado": ["Red de la vida silvestre"],
+    "aliado": "Red de la vida silvestre",
     "enemigo": ["El cazador", "El desecador", "Corporación Omicron"]
-  },
+  }
 ]
