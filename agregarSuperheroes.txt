@@ -4,12 +4,12 @@
     "nombreSuperheroe": "Fawna",
     "nombreReal": "Debbie",
     "nombreSociedad": " Protectora de la Vida Silvestre (PVS) ",
-    "edad": 25,
+    "edad": 40,
     "planetaOrigen": "Tierra",
-    "debilidad": "destrucción del ecosistema",
+    "debilidad": "Destrucción del ecosistema",
     "poder": ["Comunicacion con animales", "Empatía con la naturaleza", "Control sobre la flora"],
     "habilidadEspecial": "Fuerza y agilidad sobrehumanas",
     "aliado": ["Red de la vida silvestre"],
-    "enemigo": ["El cazador", "El desecador", "Corporación Omicron]
+    "enemigo": ["El cazador", "El desecador", "Corporación Omicron"]
   },
 ]
